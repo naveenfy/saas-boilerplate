@@ -48,7 +48,7 @@ export default function ProjectSwitcher({
   return (
     <div>
       <Popover open={openPopover} onOpenChange={setOpenPopover}>
-        <PopoverTrigger asChild>
+        <PopoverTrigger>
           <Button
             className="h-8 px-2"
             variant={openPopover ? "secondary" : "ghost"}
